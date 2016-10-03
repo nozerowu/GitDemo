@@ -17,6 +17,14 @@
 1. cd GitDemo
 1. git init
 > 也可以直接 git init GitDemo()
+#### 删除一个远程库
+1. git remote rm origin
+#### 显示远程库
+1. git remote -v
+#### 添加一个远程库
+1. git remote add origin git@github.com:nozerowu/GitDemo
+#### 第一次push
+1. git push -u origin master
 
 #### 创建远程仓库
 1. git remote add origin http://github.com/nozerowu/GitDemo
