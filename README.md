@@ -49,6 +49,10 @@
 #### 恢复工作进度 
 1. git stash pop
 
+#### 里程碑
+1. git tag v0.1.1
+1. git push origin v0.1.1 #
+
 #### 将其它git网站中的git到本地
 1. 选择本地目录，在GitHub Desktop上添加本地项目。
 1. 在码云GIT上新建项目。
