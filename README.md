@@ -17,6 +17,10 @@
 1. cd GitDemo
 1. git init
 > 也可以直接 git init GitDemo()
+
+#### 创建远程仓库
+1. git remote add origin http://github.com/nozerowu/GitDemo
+1. 
 #### 将其它git网站中的git到本地
 1. 选择本地目录，在GitHub Desktop上添加本地项目。
 1. 在码云GIT上新建项目。
