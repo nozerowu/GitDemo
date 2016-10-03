@@ -6,10 +6,10 @@
 1. git config --golbal user.name 'Nozero'
 1. git config --golbal user.email 3921342@qq.com
 #### 设置命令别名
-1. sudo git config --system alias.st status
-1. sudo git config --system alias.ci commit
-1. sudo git config --system alias.co checkout
-1. sudo git config --system alias.br branch
+1. git config --system alias.st status
+1. git config --system alias.ci commit
+1. git config --system alias.co checkout
+1. git config --system alias.br branch
 #### 开启颜色
 1. git config --global color.ui true
 #### 创建一个库
