@@ -36,6 +36,19 @@
 #### 创建远程仓库
 1. git remote add origin http://github.com/nozerowu/GitDemo
 
+#### 重置
+1. git reset HEAD
+1. git reset --filename
+1. git reset --soft HEAD^
+> HEAD可以理解为头指针，是当前工作区的“基础版本”
+
+#### 保存当前工作进度
+1. git stash
+1. git stash list
+
+#### 恢复工作进度 
+1. git stash pop
+
 #### 将其它git网站中的git到本地
 1. 选择本地目录，在GitHub Desktop上添加本地项目。
 1. 在码云GIT上新建项目。
@@ -43,6 +56,8 @@
 1. 先使用命令git pull origin master 同步代码。
 1. 使用命令git push origin master 将本地代码推送到远程项目。
 1. 在GitHub Desktop上尽情地提交、同步吧！
+
+#### git基础操作
 
 
 
