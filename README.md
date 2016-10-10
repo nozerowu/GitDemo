@@ -33,13 +33,13 @@
 #### 第一次push
 1. git push -u origin master
 
-#### 创建远程仓库
-1. git remote add origin http://github.com/nozerowu/GitDemo
+
 
 #### 重置
 1. git reset HEAD
 1. git reset --filename
 1. git reset --soft HEAD^
+1. git push force
 > HEAD可以理解为头指针，是当前工作区的“基础版本”
 
 #### 保存当前工作进度
