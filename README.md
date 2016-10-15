@@ -33,7 +33,8 @@
 #### 第一次push
 1. git push -u origin master
 
-
+#### 撤销本地修改
+1. git checkout
 
 #### 重置
 1. git reset HEAD
