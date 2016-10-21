@@ -51,8 +51,16 @@
 1. git stash pop
 
 #### 里程碑
-1. git tag v0.1.1
-1. git push origin v0.1.1 #
+1. git tag -a v1.0 -m 'Version 1.0'
+1. git push origin v1.0:v1.0
+
+
+### 创建本地分支，推送远程分支
+1. git branch NcCode
+1. git push origin NcCode:NcCode
+1. git branch
+1. git checkout NcCode
+1. git branch --set-upstream NcCode origin/NcCode
 
 #### 将其它git网站中的git到本地
 1. 选择本地目录，在GitHub Desktop上添加本地项目。
