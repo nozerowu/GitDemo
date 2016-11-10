@@ -30,6 +30,9 @@
 #### 添加一个远程库
 1. git remote add origin git@github.com:nozerowu/GitDemo
 
+#### 强制将本地库覆盖远程库（本地库多版本，远程刚创建）
+1. git push origin master --force
+
 #### 第一次push
 1. git push -u origin master
 
@@ -69,6 +72,8 @@
 1. 先使用命令git pull origin master 同步代码。
 1. 使用命令git push origin master 将本地代码推送到远程项目。
 1. 在GitHub Desktop上尽情地提交、同步吧！
+
+
 
 #### git基础操作
 
