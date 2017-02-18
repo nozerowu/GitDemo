@@ -1,4 +1,4 @@
-# Git 使用与学习
+﻿# Git 使用与学习
 ## 基于GIT权威指南
 ### Git初始化
 
@@ -69,6 +69,7 @@
 1. 选择本地目录，在GitHub Desktop上添加本地项目。
 1. 在码云GIT上新建项目。
 1. 命令行使用git remote add origin GIT地址 将本地项目与码云GIT项目建立关系。
+1. git clone http://nozero.cn/simple.git
 1. 先使用命令git pull origin master 同步代码。
 1. 使用命令git push origin master 将本地代码推送到远程项目。
 1. 在GitHub Desktop上尽情地提交、同步吧！
